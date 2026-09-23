@@ -38,6 +38,7 @@
 					<a href="{resolve('/aktuell')}" class="text-sm hover:text-primary-700 focus-visible:underline focus-visible:underline-offset-4">Aktuell</a>
 					<a href="{resolve('/workshop')}" class="text-sm hover:text-primary-700 focus-visible:underline focus-visible:underline-offset-4">Workshop</a>
 					<a href="{resolve('/das-spiel')}" class="text-sm hover:text-primary-700 focus-visible:underline focus-visible:underline-offset-4">Das Spiel</a>
+					<a href="{resolve('/download')}" class="text-sm hover:text-primary-700 focus-visible:underline focus-visible:underline-offset-4">Download</a>
 					<a href="{resolve('/ueber-uns')}" class="text-sm hover:text-primary-700 focus-visible:underline focus-visible:underline-offset-4">Über uns</a>
 					<a href="{resolve('/kontakt')}" class="text-sm hover:text-primary-700 focus-visible:underline focus-visible:underline-offset-4">Kontakt</a>
 					<a href="{resolve('/impressum')}" class="text-sm hover:text-primary-700 focus-visible:underline focus-visible:underline-offset-4">Impressum</a>
