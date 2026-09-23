@@ -1,7 +1,7 @@
 <script>
 	import { resolve } from '$app/paths';
 	import workshopBanner from '$lib/assets/workshop/workshop.png';
-	import { Download, Printer } from '@lucide/svelte';
+	import { CalendarPlus, Printer } from '@lucide/svelte';
 </script>
 
 <svelte:head>
@@ -27,31 +27,35 @@
 		</a>
 	</div>
 
-	<h2 class="text-2xl font-bold mb-6">Workshop-Termine</h2>
+	<h2 class="text-2xl font-bold mb-6">Workshops</h2>
 
 	<div class="bg-primary-50 border-t-4 border-primary-500 rounded-lg shadow-md overflow-hidden">
 		<div class="flex flex-col md:flex-row">
 			<img src="{workshopBanner}" alt="Workshop Banner" class="w-full md:w-1/3 h-auto max-h-[350px] object-contain bg-white p-4">
 			<div class="p-6 flex flex-col justify-between gap-6">
 				<div class="space-y-4">
-					<h2 class="text-2xl font-bold text-primary-800">Workshop - BewegUNS-Würfel</h2>
-					<a href="{resolve('/workshop.ics')}" download="BewegUNS-Workshop.ics" class="flex items-start gap-2 hover:underline">
-						<span class="text-lg">📅</span>
-						<p class="text-gray-700">15.03.2026, 12:00 - 15:00 Uhr</p>
+					<h2 class="text-2xl font-bold text-primary-800">Workshops auf Anfrage</h2>
+					<p class="text-gray-700">
+						Unsere drei Projekt-Workshops im Raiffeisen Sportpark Graz sind abgeschlossen, der letzte
+						fand am 15.03.2026 statt. Wir kommen weiterhin zu Gruppen von 6 bis 30 Personen, zum
+						Beispiel in Einrichtungen, Schulen und Vereine.
+					</p>
+				</div>
+				<div class="flex flex-wrap gap-3">
+					<a
+						href="{resolve('/kontakt')}"
+						class="inline-flex items-center gap-2 bg-white text-primary-700 hover:bg-primary-50 border-2 border-primary-700 py-3 px-6 rounded-lg transition-colors font-medium shadow-sm"
+					>
+						<CalendarPlus size={20} />
+						Workshop anfragen
 					</a>
-					<a href="https://www.google.com/maps/search/?api=1&query=Raiffeisen+Sportpark+1.+Stock" target="_blank" rel="noopener noreferrer" class="flex items-start gap-2 hover:underline">
-						<span class="text-lg">📍</span>
-						<p class="text-gray-700">Raiffeisen Sportpark, 1. Stock</p>
+					<a
+						href="{resolve('/workshop')}"
+						class="inline-flex items-center gap-2 text-primary-700 hover:bg-primary-50 py-3 px-6 rounded-lg transition-colors font-medium"
+					>
+						So läuft ein Workshop ab
 					</a>
 				</div>
-				<a
-					href="{resolve('/flyer.pdf')}"
-					download="BewegUNS-Wuerfel-Flyer.pdf"
-					class="inline-flex items-center gap-2 bg-white text-primary-700 hover:bg-primary-50 border-2 border-primary-700 py-3 px-6 rounded-lg transition-colors font-medium shadow-sm self-start"
-				>
-					<Download size={20} />
-					Flyer herunterladen
-				</a>
 			</div>
 		</div>
 	</div>
@@ -73,7 +77,7 @@
 		</p>
 		<a href="{resolve('/kontakt')}"
 			 class="inline-block bg-primary-700 hover:bg-primary-600 text-white py-3 px-8 rounded-lg transition-colors font-medium">
-			Jetzt anmelden
+			Workshop anfragen
 		</a>
 	</div>
 </section>
