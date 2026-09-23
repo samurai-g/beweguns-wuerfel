@@ -1,0 +1,42 @@
+BewegUNS-Würfel – Lizenz
+========================
+
+Copyright (c) 2025–2026 Informelle Gruppe „BewegUNS-Würfel“, Graz
+(Samuel Grausgruber, Valerie Seebacher, Flora Bodingbauer, Fabian Veider,
+Christoph Thonhauser)
+
+Dieses Werk (3D-Modelle, Symbole, Papiervorlage, Spielanleitung und
+Spielformen des BewegUNS-Würfels) ist lizenziert unter der
+
+    Creative Commons Namensnennung – Weitergabe unter gleichen
+    Bedingungen 4.0 International (CC BY-SA 4.0)
+
+Vollständiger Lizenztext:
+    https://creativecommons.org/licenses/by-sa/4.0/legalcode.de
+Zusammenfassung:
+    https://creativecommons.org/licenses/by-sa/4.0/deed.de
+
+Sie dürfen:
+  Teilen      – das Material in jedwedem Format oder Medium vervielfältigen
+                und weiterverbreiten, auch kommerziell.
+  Bearbeiten  – das Material remixen, verändern und darauf aufbauen,
+                auch kommerziell.
+
+Unter folgenden Bedingungen:
+  Namensnennung – Nennen Sie „BewegUNS-Würfel, www.beweg-uns-wuerfel.at“
+                als Quelle, verlinken Sie die Lizenz und geben Sie an, ob
+                Änderungen vorgenommen wurden.
+  Weitergabe unter gleichen Bedingungen – Wenn Sie das Material bearbeiten
+                oder darauf aufbauen, müssen Sie Ihre Beiträge unter
+                derselben Lizenz (CC BY-SA 4.0) verbreiten.
+  Keine weiteren Einschränkungen – Sie dürfen keine zusätzlichen Klauseln
+                oder technischen Verfahren einsetzen, die anderen rechtlich
+                verbieten, was die Lizenz erlaubt.
+
+Empfohlene Quellenangabe:
+    „BewegUNS-Würfel“ von der informellen Gruppe BewegUNS-Würfel, Graz,
+    www.beweg-uns-wuerfel.at, lizenziert unter CC BY-SA 4.0.
+
+Entwickelt mit Förderung des Europäischen Solidaritätskorps der
+Europäischen Union (Projekt 2024-3-AT01-ESC30-SOL-000275327). Die Inhalte
+geben ausschließlich die Meinung der Autor:innen wieder.

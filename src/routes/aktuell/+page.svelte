@@ -1,7 +1,7 @@
 <script>
 	import { resolve } from '$app/paths';
 	import workshopBanner from '$lib/assets/workshop/workshop.png';
-	import { Download } from '@lucide/svelte';
+	import { Download, Printer } from '@lucide/svelte';
 </script>
 
 <svelte:head>
@@ -9,7 +9,25 @@
 </svelte:head>
 
 <section class="mb-12">
-	<h1 class="text-3xl font-bold mb-6">Aktuelle Workshop-Termine</h1>
+	<h1 class="text-3xl font-bold mb-6">Aktuell</h1>
+
+	<div class="bg-slate-50 border-t-4 border-accent-500 rounded-lg shadow-md p-6 mb-8 flex flex-col gap-4">
+		<h2 class="text-2xl font-bold">Neu: Der Würfel zum Selbstdrucken</h2>
+		<p class="text-gray-700">
+			Die 3D-Druckdateien, die sechs Symbole, eine Papiervorlage und die Spielanleitung stehen ab sofort
+			als Open Source unter CC BY-SA 4.0 zum Download. Wer einen 3D-Drucker hat, kann sich den
+			BewegUNS-Würfel selbst drucken. Wer keinen hat, bastelt ihn aus Papier.
+		</p>
+		<a
+			href="{resolve('/download')}"
+			class="inline-flex items-center gap-2 bg-white text-primary-700 hover:bg-primary-50 border-2 border-primary-700 py-3 px-6 rounded-lg transition-colors font-medium shadow-sm self-start"
+		>
+			<Printer size={20} />
+			Zu den Druckdateien
+		</a>
+	</div>
+
+	<h2 class="text-2xl font-bold mb-6">Workshop-Termine</h2>
 
 	<div class="bg-primary-50 border-t-4 border-primary-500 rounded-lg shadow-md overflow-hidden">
 		<div class="flex flex-col md:flex-row">

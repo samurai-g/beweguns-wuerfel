@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { resolve } from '$app/paths';
 	import wuerfelImg from '$lib/assets/das-spiel/wuerfel.png';
 	import gamePlayedImg from '$lib/assets/das-spiel/game-being-played.png';
 	import differentWuerfelImg from '$lib/assets/das-spiel/showing-different-wuerfel.png';
@@ -118,6 +119,9 @@
 			<p>Uns war wichtig, dass der Würfel gut in jeder Hand liegt, robust ist und es Spaß macht, ihn anzufassen. Die
 				Symbole werden so gedruckt, dass sie klar ertastbar sind. Die leuchtenden, kontrastreichen Farben wurden in
 				gemeinsamen Workshops ausgesucht. Immer mit dem Ziel, dass möglichst alle Menschen damit spielen können.
+			</p>
+			<p>Die Druckdateien, die Symbole und die Spielanleitung stellen wir als Open Source zur Verfügung:
+				<a href="{resolve('/download')}" class="underline underline-offset-4 hover:text-primary-700">Selbst drucken</a>.
 			</p>
 		</div>
 		<div class="flex-1 flex justify-center">
