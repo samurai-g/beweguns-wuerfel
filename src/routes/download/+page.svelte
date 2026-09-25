@@ -215,8 +215,7 @@
 		<h2 class="text-2xl font-bold">Zeig uns dein Ergebnis</h2>
 		<p>
 			Du hast den Würfel gedruckt, gebastelt oder in deiner Gruppe gespielt? Schick uns ein Foto
-			oder erzähl uns, wie es gelaufen ist. Für Gruppen von 6 bis 30 Personen bieten wir Workshops
-			an.
+			oder erzähl uns, wie es gelaufen ist.
 		</p>
 		<a
 			href={resolve('/kontakt')}
